@@ -42,4 +42,11 @@ class accounts {
     sshkey          =>  'AAAAB3NzaC1yc2EAAAADAQABAAABAQC61eVHrs81CKLpuY4iChm7U7hRPyRtcXpzGFxtgBLmNEu7Af5w8g0F9HIFr4EMe8qH0T/jP5SHtGgvvykrfufBwYQMe0qPaUS89x+jFCncL/jVpmOFJPV0SMArmGXOZ9T4c5yE8qGuXQ3abtmeG8mG/pSY0AErQHVRYKJBCqJD1ap36xb2FkQokvqBpgwG+EzDwTcpFxuC26j8ThnGkcf0s7Z/PSFDVEUdAugrVEo6y5/5lk+I3EpwYYy6gpGpC5BqkmszGJL6FJeq/bG4jRg6j0V8EcT7soJmVwpgFLvAjqCfop+XluXsv1EsAZLXEImyOuNZ8oVYCrxdfYlPcq/d'
   }
 
+  @accounts::virtual { 'SohnDesSon.Horst':
+    uid             =>  4006,
+    realname        =>  'SohnDesSon Horst',
+    sshkeytype      =>  'ssh-rsa',
+    sshkey          =>  'AAAAB3NzaC1yc2EAAAADAQABAAABAQCk5Gy6AdrKlLN5asckVhlr5zL8zZnCsFcE1OdaxXrsooMK/kT6C8S8N+bEwWF6lu0EfRYr5rCCsheSEzah3sVO9adylZhrkSop4l8sUhCwapvQJFV1ky7JOiisxvQXSZE4ZogD8QLVMR1MO/+ozB4sKt2TOL/cAnP/uT/kadAYteV8HXbyEMyN3sTqoCYxE/UdhAfqxbSFbaVpEWvZp2kaZUvTBrYk7CARmydBUS6oSdhNF45mv03GO7BA1e3wYf7ZysHqbrufS1Dq5+xN35RXkDbWfEb7vDGZydbxBIZ1uBpFPdI5Ir8v/sgjL+Sv5FnUxe2BHnYnZxDQQNLlhTTL'
+  }
+
 }
