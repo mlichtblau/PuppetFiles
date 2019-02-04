@@ -1,6 +1,6 @@
 class node_$vm2 {
-        $admins = ["Ad.Min"]
-        $users = ["Hans.Wurst", "Son.Horst"]
+        $admins = ["ad.min"]
+        $users = ["hans.wurst", "son.horst", "soehnchen.horst"]
 
         realize(Accounts::Virtual[$admins], Accounts::Sudoroot[$admins])
         realize(Accounts::Virtual[$users])
